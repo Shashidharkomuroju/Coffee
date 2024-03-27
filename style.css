@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 220px;
+  font-family: sans-serif;
+}
+.nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-logo h2 {
+  font-size: 30px;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-links a {
+  font-size: 20px;
+  color: white;
+}
+
+/* SECTION1 */
+
+.section1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0px;
+  gap: 20px;
+}
+
+.section1 img {
+  width: 25%;
+}
+
+.section1 h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.section1 button {
+  background-color: goldenrod;
+  color: black;
+  border: none;
+  padding: 10px 30px;
+}
+
+/* SECTION-2 */
+
+.section2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+.section2 .section2-content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section2 .section2-content h2 {
+  color: white;
+  font-size: 40px;
+}
+
+.section2 .section2-content p {
+  color: white;
+  font-size: 20px;
+}
+
+.section2 .section2-content span {
+  display: block;
+}
+
+.section2 .section2-img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2 .section2-img img {
+  width: 70%;
+}
+
+.section2 button {
+  background-color: goldenrod;
+  color: black;
+  border: none;
+  padding: 10px 30px;
+}
+
+/* SECTION- 3 */
+
+.section3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+  padding: 0px 50px;
+}
+
+.section3 .heading {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.section3 .heading h2 {
+  color: white;
+  font-size: 50px;
+}
+
+.section3 .cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.section3 .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  border: 1px solid goldenrod;
+  font-family: sans-serif;
+}
+
+.section3 .card h3 {
+  color: white;
+  font-size: 25px;
+}
+
+.section3 .card .items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section3 .card .items p {
+  color: white;
+  font-size: 20px;
+}
+
+.section3 button {
+  background-color: goldenrod;
+  color: black;
+  border: none;
+  padding: 10px 30px;
+}
+
+.line {
+  width: 50%;
+  height: 2px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.line hr {
+  border: 1px solid goldenrod;
+}
+
+/* SECTION - 4 */
+
+.section4 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  padding: 80px 80px;
+  font-family: sans-serif;
+}
+
+.section4 .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.section4 .content h2 {
+  font-size: 30px;
+  color: white;
+}
+
+.section4 span {
+  color: goldenrod;
+}
+
+.section4 .content p {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+footer p {
+  color: white;
+  font-size: 20px;
+}
+
+footer span {
+  color: goldenrod;
+}
